@@ -34,6 +34,7 @@ cost_step = 1 # the cost associated with moving from a cell to an adjacent one.
 # modify code below
 # ----------------------------------------
 
+
 def optimum_policy():
     value = [[99 for row in range(len(grid[0]))] for col in range(len(grid))]
     change = True
